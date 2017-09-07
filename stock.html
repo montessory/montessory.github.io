@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<title>Delphic</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="style/css/ie7.css" media="all" /><![endif]-->
+<script type="text/javascript" src="style/js/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="style/js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="style/js/scripts.js"></script>
+<script type="text/javascript" src="scripts/swfobject/swfobject.js"></script>
+
+<link rel="stylesheet" media="all" href="style/css/prettyPhoto.css" />
+<script type="text/javascript" src="style/js/quicksand.js"></script>
+<script type="text/javascript" src="style/js/portfolio.js"></script>
+<script type="text/javascript" src="style/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+
+var flashvars = {};
+flashvars.cssSource = "piecemaker.css";
+flashvars.xmlSource = "piecemaker.xml";
+var params = {};
+params.play = "true";
+params.menu = "false";
+params.scale = "showall";
+params.wmode = "transparent";
+params.allowfullscreen = "true";
+swfobject.embedSWF('piecemaker.swf', 'piecemaker', '960', '450', '10', null, flashvars, params, null);
+</script>
+
+<style>
+.logo{
+ font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+ font-size: 250%; /* Размер шрифта в процентах */ 
+}
+
+    .indent {
+
+     
+     font-size: 110%;
+   }
+</style>
+
+</head>
+<body>
+<div id="container">
+  <!-- Begin Header Wrapper -->
+  <div id="page-top">
+    <div id="header-wrapper">
+      <!-- Begin Header -->
+      <div id="header">
+        <div id="logo"><a href="index.html" class = "logo">Монтессори-пространство</font></a></div>
+        <!-- Logo -->
+        <!-- Begin Menu -->
+        <div id="menu-wrapper">
+          <div id="smoothmenu1" class="ddsmoothmenu">
+            <ul>
+           <li><a href="index.html" class="selected">Главная</a></li>
+			  <li><a href="parent.html" class="selected">Родителям</a></li>
+              <li><a href="stock.html">Акции</a></li>
+              <li><a href="contact.html">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Menu -->
+      </div>
+      <!-- End Header -->
+    </div>
+  </div>
+  <!-- End Header Wrapper -->
+  <!-- Begin Slider -->
+  <div id="piecemaker-container">
+    <div id="piecemaker">
+	<div class="content">
+     
+
+<h1>Акция сентября !</h1>
+<p class="indent">
+Посещение центра двумя детьми
+(в сопровождении одного  взрослого) – 
+500руб (до 60 мин)
+<br>
+<br>
+            Прайс
+- 350руб – до 60мин
+<br>
+<br>
+- 500руб – до 1,5часов
+<br>
+<br>
+- 650руб – до 2часов
+<br>
+<br>
+- Абонемент 10 занятий(каждое занятие по 1 часу)- 3200руб
+<br>
+<br>
+- Абонемент 20 занятий(каждое занятие по 1 часу)- 6100руб
+<br>
+<br>
+Расчёт наличный или безналичный
+
+</p>
+    </div>
+ 
+ </div>
+	
+
+	  
+	
+  </div>
+  <!-- End Slider -->
+  
+  <div class="clearfix"></div>
+  <div class="push"></div>
+  <!-- Begin Footer -->
+  <div id="footer-wrapper">
+    <div id="footer">
+      <div id="footer-content">
+        <!-- Begin Copyright -->
+        <div id="copyright">
+          <p><a href="#"></a>Тел: +7 913 460 82 70; &nbsp;&nbsp;&nbsp;  Почта: detiM2017@gmail.com;</p> 
+        </div>
+        <!-- End Copyright -->
+        <!-- Begin Social Icons -->
+        <div id="socials">
+          <ul>
+            <li><a href="#"><img src="style/images/vk.png" alt="" /></a></li>
+          </ul>
+        </div>
+        <!-- End Social Icons -->
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#gallery a[rel^='prettyPhoto']").prettyPhoto({
+        theme: 'light_square',
+        autoplay_slideshow: false
+    });
+    $("ul.grid img").hide()
+    $("ul.grid img").each(function (i) {
+        $(this).delay(i * 200).fadeIn();
+    });
+});
+</script>
+</body>
+
+</html>
