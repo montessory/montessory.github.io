@@ -93,8 +93,8 @@ table {
 
 body {
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Helvetica, Arial, sans-serif;
-	background-color: #dbffe3;
-	color: #565656;
+	background-color: #CEF86E;
+	color: #000000;
 	font-size: 13px;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -362,6 +362,8 @@ em {
 	margin: 0 auto;
 	padding-top: 0;
 	line-height: 20px;
+	border: 1px solid black;
+	
 }
 #header-wrapper {
 	min-width: 960px;
@@ -465,7 +467,9 @@ em {
 	color: #565656;
 }
 .ddsmoothmenu ul li a.selected { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
-	color: #5d8ba6;
+	color: #000000;
+	font-size: 16pt;
+	
 }
 .ddsmoothmenu ul li a:hover {
 	color: #5d8ba6;
@@ -532,10 +536,11 @@ em {
 
 #piecemaker-container {
 	display:block;
-	height:850px;
+	height:2050px;
 	overflow:hidden;
 	margin: -10px auto 40px;
 	width: 960px;
+	border: 2px solid black;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	COLUMNS
@@ -916,4 +921,20 @@ ul#tab-menu li:last-child {
 .contact-right {
 	width: 420px;
 	float: right;
+}
+
+ .indent {
+
+     text-indent: 25px;
+     font-size: 16pt;
+	 font-family: "Arial", sans-serif;
+	 font-weight: lighter  ;
+	 letter-spacing:1px ;
+	 line-height: 150%;
+   }
+   .logo{
+ font-family: Monotype Corsiva; /* Гарнитура текста */ 
+ font-size: 250%; /* Размер шрифта в процентах */ 
+ color:#955201;
+ 
 }
